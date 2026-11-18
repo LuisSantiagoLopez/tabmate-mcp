@@ -1,0 +1,18 @@
+{
+  "name": "tabmate-mcp",
+  "version": "0.2.0",
+  "description": "Every website, an MCP server. Lets Claude run the browser workflows the Tabmate Chrome extension learned. Local only.",
+  "license": "MIT",
+  "author": "Santiago López",
+  "homepage": "https://github.com/LuisSantiagoLopez/tabmate#connect-to-claude",
+  "repository": { "type": "git", "url": "git+https://github.com/LuisSantiagoLopez/tabmate.git", "directory": "mcp" },
+  "keywords": ["mcp", "claude", "chrome-extension", "browser-automation", "tabmate"],
+  "bin": { "tabmate-mcp": "bin/tabmate-mcp.js" },
+  "main": "lib/server.js",
+  "files": ["bin", "lib", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "ws": "8.23.0"
+  }
+}
