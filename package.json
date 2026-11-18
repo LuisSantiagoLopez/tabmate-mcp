@@ -1,6 +1,6 @@
 {
   "name": "tabmate-mcp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Every website, an MCP server. Lets Claude run the browser workflows the Tabmate Chrome extension learned. Local only.",
   "license": "MIT",
   "author": "Santiago López",

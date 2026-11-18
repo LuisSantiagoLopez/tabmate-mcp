@@ -3,10 +3,13 @@
 const VERSION = require('../package.json').version;
 const HELP = `tabmate-mcp ${VERSION}: every website, an MCP server.
 
-  npx tabmate-mcp install --token <token>   Add Tabmate to Claude Desktop and Claude Code
-        [--only desktop|code]               (the token is in the Tabmate popup, under "Connect to Claude")
-  npx tabmate-mcp uninstall                 Remove it again
-  tabmate-mcp                               Run the server (Claude does this for you)
+  npx -y github:LuisSantiagoLopez/tabmate-mcp install --token <token>
+        Add Tabmate to Claude Desktop and Claude Code [--only desktop|code]
+        (the token is in the Tabmate popup, under "Claude")
+  npx -y github:LuisSantiagoLopez/tabmate-mcp uninstall
+        Remove it again
+  tabmate-mcp
+        Run the server (Claude does this for you)
 
 Local only: listens on 127.0.0.1 and talks to the Tabmate extension, nothing else.`;
 

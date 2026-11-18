@@ -11,12 +11,12 @@ Every website, an MCP server.
 3. Paste in Terminal:
 
    ```bash
-   npx tabmate-mcp install --token <token from the popup>
+   npx -y github:LuisSantiagoLopez/tabmate-mcp install --token <token from the popup>
    ```
 
 4. Restart Claude Desktop. The popup says **Connected to Claude**.
 
-`install` adds a `tabmate` server to Claude Desktop (`claude_desktop_config.json`) and Claude Code (`~/.claude.json`). It backs up each file first, skips apps you don't have, never writes a file it can't read, and never touches other servers. Use `--only desktop` or `--only code` to pick one. `npx tabmate-mcp uninstall` removes it.
+`install` adds a `tabmate` server to Claude Desktop (`claude_desktop_config.json`) and Claude Code (`~/.claude.json`). It backs up each file first, skips apps you don't have, never writes a file it can't read, and never touches other servers. Use `--only desktop` or `--only code` to pick one. `npx -y github:LuisSantiagoLopez/tabmate-mcp uninstall` removes it.
 
 ## Tools
 
